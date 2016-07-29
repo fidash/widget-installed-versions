@@ -1,17 +1,22 @@
 {
-    "name": "widget-installedversions",
-    "dependencies": {
-        "jquery": null,
-        "bootstrap": "~3.3.6"
+  "name": "widget-installedversions",
+  "dependencies": {
+    "jquery": null,
+    "bootstrap": "~3.3.6",
+    "font-awesome": "fontawesome#~4.6.3"
+  },
+  "exportsOverride": {
+    "jquery": {
+      "js": "dist/jquery.min.js"
     },
-    "exportsOverride": {
-        "jquery": {
-            "js": "dist/jquery.min.js"
-        },
-        "bootstrap": {
-            "css": "dist/css/bootstrap.min.css",
-            "js": "dist/js/bootstrap.min.js",
-            "fonts": "dist/fonts/glyphicons-halflings-regular.woff"
-        }
-    }
+    "bootstrap": {
+      "css": "dist/css/bootstrap.min.css",
+      "js": "dist/js/bootstrap.min.js",
+      "fonts": "dist/fonts/glyphicons-halflings-regular.woff"
+    },
+      "font-awesome": {
+          "css": "css/font-awesome.min.css",
+          "fonts": "fonts/fontawesome-webfont.woff"
+      }
+  }
 }
