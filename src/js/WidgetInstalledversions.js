@@ -210,7 +210,7 @@ var WidgetInstalledversions = (function () {
                     'searching': false,
                     'renderer': {
                         'header': "bootstrap"
-		    }
+                    }
                 });
             });
         }
