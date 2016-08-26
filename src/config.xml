@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="widget-installedversions" version="0.1.1">
+<widget xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="UPM-ETSIINF" name="widget-installedversions" version="0.1.2">
 <details>
   <title>Installed Versions</title>
   <homepage>https://github.com/rockneurotiko/widget-installedversions</homepage>
-  <authors>Migues Garcia</authors>
-  <email>mgarcia@conwet.com</email>
+  <authors>Miguel Garcia, Miguel Jiménez</authors>
+  <email>mjimenez@conwet.com</email>
   <image></image>
   <smartphoneimage></smartphoneimage>
   <description>Show region installed versions.</description>

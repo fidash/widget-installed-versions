@@ -151,13 +151,13 @@ var WidgetInstalledversions = (function () {
         createHeaderName("Ceilometer", "television").appendTo($tr);
 
         var $thead = $("<thead></thead>");
-        var $tfoot = $("<tfoot></tfoot>");
+        //var $tfoot = $("<tfoot></tfoot>");
 
         $tr.appendTo($thead);
-        $tr.clone().appendTo($tfoot);
+        //$tr.clone().appendTo($tfoot);
 
         $thead.appendTo($("#versions"));
-        $tfoot.appendTo($("#versions"));
+        //$tfoot.appendTo($("#versions"));
     };
 
     // var fakeData = function fakeData() {
@@ -203,11 +203,14 @@ var WidgetInstalledversions = (function () {
 
             getRegionsMonitoring.call(this, function () {
                 $('#versions').DataTable({
-                    paging:   false,
+                    'paging':   false,
                     // "ordering": false,
-                    info:     false,
-                    destroy: true,
-                    search: false
+                    'info':     false,
+                    'destroy': true,
+                    'searching': false,
+                    'renderer': {
+                        'header': "bootstrap"
+		    }
                 });
             });
         }
